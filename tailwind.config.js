@@ -7,7 +7,9 @@ module.exports = {
   theme: {
       extend: {
         fontFamily: {
+          inter: ['Inter', `sans-serif`],
           montserrat: ['Montserrat', 'sans-serif'],
+          poppins: ['Poppins', "sans-serif"],
         },
         backgroundImage:{
           'Footer': "url('./assets/images/Footer.png')",
