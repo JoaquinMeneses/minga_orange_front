@@ -6,8 +6,11 @@ module.exports = {
   ],
   theme: {
       extend: {
+        fontFamily: {
+          montserrat: ['Montserrat', 'sans-serif'],
+        },
         backgroundImage:{
-          'MangasHome': "url('./assets/images/MangasHome.png')"
+          'Footer': "url('./assets/images/Footer.png')",
         }
       }
   },
