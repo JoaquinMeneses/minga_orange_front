@@ -34,7 +34,7 @@ function App() {
             </div>
           </div>
           <h1 className="relative mb-[2rem] text-white font-bold	text-7xl not-italic hidden md:flex sm:justify-center font-montserrat">Best manga reader</h1>
-          <div class="min-h-[80vh] relative">
+          <div class="min-h-[85vh] relative">
             <img src={MangasHome} alt="Imagen" class="w-[100vw] md:w-[40%] md:ml-[8%] object-cover filter brightness-75 md:filter md:brightness-100" />
             <div class="text-center md:text-left absolute top-[3%] left-0 md:left-[-35px] w-[100vw] md:w-[100vw] flex flex-col items-center md:items-end">
               <h1 className="text-white mb-4 font-inter font-semibold text-5xl not-italic w-[70%] md:w-[40%]">Your favourite manga reader 😏</h1>
@@ -60,7 +60,7 @@ function App() {
                 <img className="w-[20vw] sm:w-[10vw]" src={Logo} alt="" />
               </div>
             </div>
-            <div className="flex flex-col justify-center pt-6 lg:pt-0">
+            <div className="flex items-center flex-col justify-center pt-6 lg:pt-0">
               <div className="flex justify-center space-x-4">
                 <a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 fill-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" /></svg>
@@ -74,7 +74,7 @@ function App() {
                 <a rel="noopener noreferrer" href="#" title="Vimeo" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 fill-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" /></svg>                </a>
               </div>
-              <button className="bg-gradient-to-r from-[#DEE4EA] to-[#F9FCFF] text-black rounded-[4px] p-[8px] flex justify-center">Donate <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-[0.5rem]">
+              <button className="w-[70%] bg-gradient-to-r from-[#DEE4EA] to-[#F9FCFF] text-black rounded-[4px] p-[8px] flex justify-center">Donate <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-[0.5rem]">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
               </button>
