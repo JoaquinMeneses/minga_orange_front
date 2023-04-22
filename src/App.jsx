@@ -29,7 +29,7 @@ function App() {
                      />
                   </svg>
                </button>
-               <img src={Logo} alt="" />
+               <img src={Logo} alt="logo" />
             </nav>
             <main id="Home">
                <div className="h-[90vh] flex">
@@ -40,22 +40,22 @@ function App() {
                         <img
                            className="h-[50%] origin-center rotate-[20deg] absolute"
                            src={anime4}
-                           alt=""
+                           alt="anime4"
                         />
                         <img
                            className="h-[50%] origin-center rotate-[-10deg] absolute"
                            src={anime3}
-                           alt=""
+                           alt="anime3"
                         />
                         <img
                            className="h-[50%] origin-center rotate-[10deg] absolute"
                            src={anime2}
-                           alt=""
+                           alt="anime2"
                         />
                         <img
                            className="h-[50%] origin-center absolute ease-in duration-300 hover:scale-110"
                            src={anime1}
-                           alt=""
+                           alt="anime1"
                         />
                      </div>
                   </div>
@@ -66,7 +66,7 @@ function App() {
                <div class="min-h-[85vh] relative">
                   <img
                      src={MangasHome}
-                     alt="Imagen"
+                     alt="MangasHome"
                      class="w-[100vw] md:w-[40%] md:ml-[8%] object-cover filter brightness-75 md:filter md:brightness-100"
                   />
                   <div class="text-center md:text-left absolute top-[3%] left-0 md:left-[-35px] w-[100vw] md:w-[100vw] flex flex-col items-center md:items-end">
@@ -104,7 +104,7 @@ function App() {
                <img
                   className="w-[100vw] h-[20vh] rounded-[100%_100%_100%_100%/_0%_0%_100%_100%]"
                   src={Footer}
-                  alt=""
+                  alt="Footer"
                />
                <div className="flex justify-evenly flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
                   <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:justify-start">
@@ -126,7 +126,7 @@ function App() {
                         <img
                            className="w-[20vw] sm:w-[10vw]"
                            src={Logo}
-                           alt=""
+                           alt="Logo"
                         />
                      </div>
                   </div>
