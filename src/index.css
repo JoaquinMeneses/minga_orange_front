@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  font-family: "Inter";
+* {
+	font-family: "Inter";
 }
