@@ -7,8 +7,11 @@ import MangasHome from "./assets/images/MangasHome.png";
 import Footer from "./assets/images/Footer.png";
 
 import "./App.css";
+import apiUrl from '../api'
 
 function App() {
+   console.log(apiUrl)
+   console.log(procces.env.NODE_ENV)
    return (
       <>
          <div className="min-h-screen bg-black">
