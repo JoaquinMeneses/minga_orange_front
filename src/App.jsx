@@ -10,8 +10,7 @@ import "./App.css";
 import apiUrl from '../api'
 
 function App() {
-   console.log(apiUrl)
-   console.log(procces.env.NODE_ENV)
+   console.log(import.meta.env.NODE_ENV)
    return (
       <>
          <div className="min-h-screen bg-black">
