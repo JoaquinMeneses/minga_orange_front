@@ -10,7 +10,7 @@ import "./App.css";
 import apiUrl from '../api'
 
 function App() {
-   console.log(import.meta.env.NODE_ENV)
+   console.log(import.meta.env.VITE_API)
    return (
       <>
          <div className="min-h-screen bg-black">
