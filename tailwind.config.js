@@ -11,9 +11,6 @@ module.exports = {
 				montserrat: ["Montserrat", "sans-serif"],
 				poppins: ["Poppins", "sans-serif"],
 			},
-			backgroundImage: {
-				Footer: "url('./assets/images/Footer.png')",
-			},
 		},
 	},
 	variants: {},
