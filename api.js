@@ -1,7 +1,7 @@
-let apiUrl = 'http://localhost:8000'
+let apiUrl = 'http://localhost:8000/'
 
-if (import.meta.env.VITE_API==='production') {
-    apiUrl = import.meta.env.VITE_API
+if (process.env.NODE_ENV==='production') {
+    apiUrl = import.meta.env.VITE_URL
 }
 
 export default apiUrl
