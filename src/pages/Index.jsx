@@ -1,21 +1,22 @@
 import React from 'react'
-
+import Welcome from "../components/Welcome"
+import Carousel from '../components/Carousel'
 import Manga1 from "../assets/images/Manga1.png";
-import Presentation from "../components/Presentation"
+import Manga2 from "../assets/images/Manga2.png";
+import Manga3 from "../assets/images/Manga3.png";
+
+const images = [
+    { src: Manga1, alt: 'Manga1' },
+    { src: Manga2, alt: 'Manga2' },
+    { src: Manga3, alt: 'Manga3' }
+];
 
 export default function Index() {
     return (
         <main id="Home">
-            <Presentation />
-            <h1 className="relative mb-[2rem] text-white font-bold	text-7xl not-italic hidden md:flex sm:justify-center font-montserrat">
-                Best manga reader
-            </h1>
-            <div class="min-h-[85vh] relative">
-                <img
-                    src={Manga1}
-                    alt="Manga1"
-                    class="w-[100vw] md:w-[40%] md:ml-[8%] object-cover filter brightness-75 md:filter md:brightness-100"
-                />
+            <Welcome />
+            <div class="min-h-[100vh] relative">
+                <Carousel images={images}/>
                 <div class="text-center md:text-left absolute top-[3%] left-0 md:left-[-35px] w-[100vw] md:w-[100vw] flex flex-col items-center md:items-end">
                     <h1 className="text-white mb-4 font-inter font-semibold text-5xl not-italic w-[70%] md:w-[40%]">
                         Your favourite manga reader 😏

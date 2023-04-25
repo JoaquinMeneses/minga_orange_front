@@ -1,11 +1,11 @@
 import React from 'react';
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 
 export default function Main({ children }) {
     return (
         <div className="min-h-screen bg-black">
-            <Navbar />
+            <NavBar />
             {children}
             <Footer />
         </div>

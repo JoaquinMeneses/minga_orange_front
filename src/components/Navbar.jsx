@@ -2,7 +2,7 @@ import React from "react";
 
 import Logo from "../assets/images/Logo.png";
 
-export default function Navbar() {
+export default function NavBar() {
     return (
         <nav className="h-[10vh] flex justify-between p-4">
             <button className="contents">
