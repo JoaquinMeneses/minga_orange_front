@@ -21,7 +21,7 @@ export default function Carousel({ images }) {
                     key={index}
                     src={image.src}
                     alt={image.alt}
-                    className={`absolute w-[100vw] md:w-[40%] md:ml-[8%] object-cover filter brightness-75 md:filter md:brightness-100 ${activeIndex === index ? 'opacity-100' : 'opacity-0'}`}
+                    className={`absolute h-full w-[100vw] md:w-[40%] md:ml-[8%] object-cover filter brightness-75 md:filter md:brightness-100 ${activeIndex === index ? 'opacity-100' : 'opacity-0'}`}
                 />
             ))}
         </div>
