@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from "../components/Footer.jsx";
-import NavBar from "../components/NavBar.jsx";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 
 export default function Main({ children }) {
     return (
