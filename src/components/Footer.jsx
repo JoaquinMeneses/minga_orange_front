@@ -7,36 +7,34 @@ export default function Footer() {
     return (
         <footer className="bg-black text-white">
             <img
-                className="w-[100vw] h-[20vh] rounded-[100%_100%_100%_100%/_0%_0%_100%_100%]"
+                className="w-[100vw] rounded-[100%_100%_100%_100%/_0%_0%_100%_100%]"
                 src={imgFooter}
                 alt="Footer"
             />
-            <div className="flex justify-evenly flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
-                <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:justify-start">
+            <div className="bg-black h-auto flex flex-col sm:flex-row justify-center items-center py-12 gap-4">
+                <div className="w-[30%] flex justify-center items-center gap-4">
                     <a
-                        className="mx-[0.5rem] md:m-0 font-poppins text-base	font-normal	"
+                        className="mx-[0.5rem] md:m-0 font-poppins text-base font-normal	"
                         href="#Home"
                     >
                         Home
                     </a>
                     <a
-                        className="mx-[0.5rem] md:m-0 font-poppins text-base	font-normal	"
+                        className="mx-[0.5rem] md:m-0 font-poppins text-base font-normal	"
                         href="#Mangas"
                     >
                         Mangas
                     </a>
-                </ul>
-                <div className="flex flex-col justify-center pt-6 lg:pt-0">
-                    <div className="flex justify-center space-x-4">
-                        <img
-                            className="w-[20vw] sm:w-[10vw]"
-                            src={logoFooter}
-                            alt="Logo"
-                        />
-                    </div>
                 </div>
-                <div className="flex items-center flex-col justify-center pt-6 lg:pt-0">
-                    <div className="flex justify-center space-x-4">
+                <div className="w-[30%] flex justify-center items-center">
+                    <img
+                        className="h-[10vh]"
+                        src={logoFooter}
+                        alt="Logo"
+                    />
+                </div>
+                <div className="w-[30%] flex justify-center items-center flex-col">
+                    <div className="w-[100%] sm:w-[50%] flex justify-between">
                         <a
                             rel="noopener noreferrer"
                             href="#"
@@ -98,7 +96,7 @@ export default function Footer() {
                             </svg>{" "}
                         </a>
                     </div>
-                    <button className="w-[70%] bg-gradient-to-r from-[#DEE4EA] to-[#F9FCFF] text-black rounded-[4px] p-[8px] flex justify-center">
+                    <button className="w-[100%] sm:w-[50%] bg-gradient-to-r from-[#DEE4EA] to-[#F9FCFF] text-black rounded-[4px] p-[8px] flex justify-center">
                         Donate{" "}
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +104,7 @@ export default function Footer() {
                             viewBox="0 0 24 24"
                             strokeWidth="1.5"
                             stroke="currentColor"
-                            className="w-6 h-6 mx-[0.5rem]"
+                            className="w-6 h-6"
                         >
                             <path
                                 strokeLinecap="round"
