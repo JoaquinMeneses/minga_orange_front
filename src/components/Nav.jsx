@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../assets/images/Logo.png";
 
-export default function NavBar() {
+export default function Nav() {
     const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
 
     const handleMenuClick = () => {
