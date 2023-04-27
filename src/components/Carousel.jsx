@@ -5,7 +5,7 @@ import apiUrl from '../../api';
 export default function Carousel() {
     useEffect(
         () => {
-            axios(apiUrl + 'resources').then(res => setImages(res.data.resources)).catch(err => console.log(err))
+            axios(apiUrl + 'carousels').then(res => setImages(res.data.carousels)).catch(err => console.log(err))
         },
         [] //array vacio, ya que necesitamos fetchear una sola vez al montar el componente
     )
